@@ -6,37 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Icosahedron Sculpture</title>
     <link rel="stylesheet" href="assets/css/main.css">
-<!--     <link rel="icon" href="/images/favicon.png"> -->
     <link rel="icon" href="images/favicon.png">
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css">
     </noscript>
     <style>
-        .center-container {
-            display: flex;
-            justify-content: center;
-        }
+.center-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-        .image-row {
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-around;
-        }
+.image-row-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-        .image-column {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; /* Adjust max-width as needed */
+}
 
-        .image-column img {
-            margin-bottom: 10px;
-        }
+.image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-width: 150px; /* Adjust minimum width as needed */
+}
 
-        .image-row img,
-        .image-column {
-            margin: 10px;
-        }
+.image-column img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.image-row img,
+.image-column {
+    margin: 10px;
+}
     </style>
 </head>
 
@@ -94,10 +107,13 @@
                     <p>Gaining Institutional Support</p>
                 </header>
                 <p>
-                    Securing approval for the sculpture was no small feat. Jonathan and the Math Alliance Club worked tirelessly to gain the support of President Esterberg's Council. This involved ongoing communication to ensure that the project aligned with the university's standards and vision.                </p>
-                <div>
-                    <img src="images/ExcerptContract.png" alt="Icosahedron sculpture contract image" style="height:550px;">
-                    <iframe src="https://drive.google.com/file/d/1my6BZxhbo-EytdqxFo021nrwwwLrAQIO/preview" width="700" height="550" allow="autoplay"></iframe>
+                    Securing approval for the sculpture was no small feat. Jonathan and the Math Alliance Club worked tirelessly to gain the support of President Esterberg's Council. This involved ongoing communication to ensure that the project aligned with the university's standards and vision.
+                </p>
+                <div class="image-row-container">
+                    <div class="image-row">
+                        <img src="images/ExcerptContract.png" alt="Icosahedron sculpture contract image" style="height:550px;">
+                        <iframe src="https://drive.google.com/file/d/1my6BZxhbo-EytdqxFo021nrwwwLrAQIO/preview" width="700" height="550" allow="autoplay"></iframe>
+                    </div>
                 </div>
                 <div>
                     Pictured (Left to Right): Excerpt from Math Alliance's contract with Physical Plant, Math Alliance's proposal to President Esterberg's Council
@@ -261,7 +277,7 @@
                     <p>Raising Funds with Creativity</p>
                 </header>
                 <p>To raise additional funds, the Math Alliance Club organized a Pi Day fundraiser featuring custom Pac-Math T-shirts. Great Northern's discounted services allowed the club to meet their fundraising goal of $450, which covered the costs of specialized tools, T-shirts, plaques, and the unveiling ceremony.</p>
-                <div class="center-container">
+                <div class="image-row-container">
                     <div class="image-row">
                         <img src="images/ExcerptTshirts.png" alt="Excerpt from Math Alliance's communication with Great Northern" style="height:550px;">
                         <img src="images/PiDay.jpg" alt="Becky and Jonathan Doane hosting Math Alliance's Pi Day of the Century" style="height:550px;">

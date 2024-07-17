@@ -4047,7 +4047,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			#page-wrapper {
+			/* #page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -4146,7 +4146,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
+				display: none;
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
@@ -4162,7 +4162,7 @@ input, select, textarea {
 					border: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: rgba(255, 255, 255, 0.75);
-					display: block;
+					display: none;
 					height: 3em;
 					line-height: 3em;
 					text-decoration: none;
@@ -4225,7 +4225,7 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			} */
 
 		/* Footer */
 
